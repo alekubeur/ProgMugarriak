@@ -7,7 +7,7 @@ public class Main {
 
 
 ArgazkilariBiztaratzaile a1=new ArgazkilariBiztaratzaile();
-        a1.interfazea();
+        a1.interfazeaSortu();
 
     }
 }

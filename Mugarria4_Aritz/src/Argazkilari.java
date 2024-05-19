@@ -1,7 +1,4 @@
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 
 public class Argazkilari {
@@ -31,5 +28,17 @@ public class Argazkilari {
             e.printStackTrace();
         }
         return argazkilariZerrenda.toArray(new Argazkilari[argazkilariZerrenda.size()]);
+    }
+
+    public int getIdArgazkilari() {
+        return idArgazkilari;
+    }
+
+    public String getIzena() {
+        return izena;
+    }
+
+    public boolean isSaritua() {
+        return saritua;
     }
 }

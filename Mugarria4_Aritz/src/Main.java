@@ -10,13 +10,14 @@ public class Main {
 
         try (
                 Connection conexion = DriverManager.getConnection(url, usuario, contrasena)) {
-            System.out.println("Conexión exitosa!");
+            System.out.println("Konektatuta");
         } catch (SQLException e) {
-            System.out.println("Error al conectar con la base de datos.");
+            System.out.println("Errorea");
             e.printStackTrace();
         }
 
-
+ArgazkilariBiztaratzaile a1=new ArgazkilariBiztaratzaile();
+        a1.interfazea();
 
     }
 }
